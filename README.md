@@ -11,6 +11,6 @@ Open source tool for container orchestration.
 
 1. APi Server => All the communication via CLI or API or SDK is done by api server , Any components wants to communicate with eachother they use kube-apiserver, When a user provide commands using *kubectl* utility it first goes through api server in following ways.
 
-> Authentication : If it's a valid user or not
-> Authoriaztion : Do you have permission to create resource
+> Authentication : If it's a valid user or not </br>
+> Authoriaztion : Do you have permission to create resource </br>
 > Admission : Validate, Mutate and reject request
