@@ -18,5 +18,5 @@ kubectl run PodName --image=nginx
 kubectl get pods
 ```
 ### Declarative way
-We can achieve this by creating pod manifest file using yaml.
+We can achieve this by creating pod manifest file using yaml.</br>
 **note:** `refer pods.yaml from repo`
