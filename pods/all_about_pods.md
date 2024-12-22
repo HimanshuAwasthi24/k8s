@@ -20,3 +20,8 @@ kubectl get pods
 ### Declarative way
 We can achieve this by creating pod manifest file using yaml.</br>
 **note:** `refer pods.yaml from repo`
+
+### Get api resources
+```bash
+kubectl api-resources | grep ResourceName
+```
