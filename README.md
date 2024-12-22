@@ -24,3 +24,10 @@ Open source tool for container orchestration.
 5. cloud controller manager =>  The cloud controller manager lets you link your cluster into your cloud provider's API,  If you are running Kubernetes on your own premises, or in a learning environment inside your own PC, the cluster does not have a cloud controller manager.</br>
 *Example:*  Service controller: For creating, updating and deleting cloud provider load balancers</br>
 
+6. kubelet => An agent that runs on each node in the cluster. It makes sure that containers are running in a Pod.</br>
+
+7. Container runtime => A fundamental component that empowers Kubernetes to run containers effectively. It is responsible for managing the execution and lifecycle of containers within the Kubernetes environment.</br>
+Kubernetes supports container runtimes such as containerd, CRI-O, and any other implementation of the Kubernetes CRI (Container Runtime Interface).</br>
+
+8. kube-proxy => kube-proxy is a network proxy that runs on each node in your cluster, implementing part of the Kubernetes Service concept.</br>
+kube-proxy maintains network rules on nodes. These network rules allow network communication to your Pods from network sessions inside or outside of your cluster.
