@@ -15,3 +15,19 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube && rm minikube-linux-a
 minikube start --nodes NumbeOfNodes -p profileName --driver=docker
 
 ```
+
+# Start working with cluster
+```bash
+# get nodes
+kubectl get nodes
+
+# get cluster context
+kubectl config get-contexts
+
+# switch cluster
+kubectl config set-context clusterName
+
+# add node to the cluster
+minikube node add --worker -p profileName 
+
+```
