@@ -25,3 +25,27 @@ We can achieve this by creating pod manifest file using yaml.</br>
 ```bash
 kubectl api-resources | grep ResourceName
 ```
+### Enter inside the pod
+```bash
+kubectl exec -it podName -- bash
+```
+### Port forward
+```bash
+kubectl port-forward podName local-port:container-port
+```
+
+### Logs, Describe & delete
+```bash
+# Logs
+kubectl logs podName
+
+#describe 
+kubectl describe pod podName
+
+#delete resources refering yaml
+kubectl delete -f pods.yaml
+
+# delete individual resource
+kubectl delete po/podName
+
+```
