@@ -4,7 +4,7 @@ Open source tool for container orchestration.
 ## architecture
 ![architecture](https://kubernetes.io/images/docs/kubernetes-cluster-architecture.svg "Optional Title")
 ## explanation of architecture
-**control plane:** Is a node or machine that manages worker nodes, It also called master.
+**control plane:** Is a node or machine that manages worker nodes, It also called master.</br>
 **Nodes:** Worker nodes or data plane are the one on which the applications are running.
 
 ### control plane components
