@@ -1,10 +1,10 @@
 # Requirements
-`
-2 CPUs or more</br>
-2GB of free memory</br>
-20GB of free disk space</br>
-Internet connection</br>
-Container or virtual machine manager, such as: Docker, QEMU, Hyperkit, Hyper-V, KVM, Parallels, Podman, VirtualBox, or VMware Fusion/Workstation`
+
+> 2 CPUs or more</br>
+>  2GB of free memory</br>
+> 20GB of free disk space</br>
+> Internet connection</br>
+> Container or virtual machine manager, such as: Docker, QEMU, Hyperkit, Hyper-V, KVM, Parallels, Podman, VirtualBox, or VMware Fusion/Workstation
 
 # Download minikube binary for linux
 ```bash
