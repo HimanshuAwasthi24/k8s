@@ -27,3 +27,10 @@ kubectl describe service/serviceName
 
 ### ClusterIP
 This service exposes the pod on the IP which is accessible inside the cluster.We can access it outside the cluster also by port forwarding.But when we do port-forwarding we never get loadbalancing, It selects a pod and always sent traffic to it.
+
+### NodePort
+This services exposes the pod on a static port called nodeport, We can access the nodeport service outside the cluster by node IP and nodeport.
+**Port Range: 30000-32767** 
+
+### LoadBalancer
+It is the service which is used to provide access to the end users.It is not supported for minikube, When loadBalancer is not supported by any cluster it becomes nodeport.
