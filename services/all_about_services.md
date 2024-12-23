@@ -2,11 +2,11 @@
 Services offer loadbalancing, service discovery and networking , End user can also access it.
 
 ### LoadBalancing
-> Do minikube ssh
-> Run the following command to make 20 curl requests
-> for i in {1..20}; do curl http://<IP>:<PORT>; done
-> run following commands to watch logs of all the pods
-> kubectl logs nameOfThePod -f
+> Do minikube ssh </br>
+> Run the following command to make 20 curl requests </br>
+> for i in {1..20}; do curl http://<IP>:<PORT>; done </br>
+> run following commands to watch logs of all the pods </br>
+> kubectl logs nameOfThePod -f </br>
 > You will see the result that load gets distributed
 
 
